@@ -16,6 +16,6 @@ import javax.persistence.Table;
 public class Type {
     @Id
     private Long id;
-    private String type;
+    private String name;
     private boolean common;
 }
